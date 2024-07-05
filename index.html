@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Vanessa Morales</title>
+  <!--estilos-->
+  <link rel="stylesheet" href="main.css">
+  <!-- boostrap-->
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+
+  <!-- CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css"
+    integrity="sha512-W4KOSUNkQhX7JkalSiTkwAIoqsAvxDdgRc/WAa5U0R2TKTpHnNZuf9AiBk8InN4GCAMwer+O9fe4ThxIQFkOGQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+
+  <!-- fuente 2-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <button> <img class="header_img" src="./imagenes/img/logo.png" alt="logo"></button>
+      <button>
+        <h3 class="titulo_log">Vanessa M.M</h3>
+      </button>
+
+    </div>
+
+    <nav class="menu">
+
+      <ul class="nav nav-underline panel" id="nav-list">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">HABILIDADES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_me">ACERCA DE MI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#about_me">HOBBIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">PROYECTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formulario">CONTACTAME</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="hamburger hamburger--emphatic" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+
+      <div class="info">
+        <h1 class="nombre">Vanessa Morales</h1>
+        <h3 class="descripcion">Frontend Developer</h3>
+        <h3 class="descripcion">León, Nicaragua</h3>
+      </div>
+
+      <div class="contenedor_imagen_hero">
+        <img class="imagen" src="./imagenes/img/foto1.png" alt="foto">
+      </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+
+      <h1 class="habilidades_titulo">Habilidades</h1>
+
+      <div class="habilidades_cards">
+        <!--se renderizo el cosigo menejando cada una con js-->
+      </div>
+
+    </section>
+
+    <section class="about_me" id="about_me">
+
+      <div class="fondo_imagen">
+        <img class="imagen2" src="./imagenes/img/foto2.png" alt="foto2">
+      </div>
+
+      <div class="about_container">
+
+        <h2 class="about_titulo">Acerca de mi</h2>
+        <p class="about_content"> Mi nombre es Auxilidora Vanessa Morales Moreno, tengo la edad de 19 años, me encanta
+          ser autodidacta y
+          aprender sobre los diversos lenguajes de programacion y tecnologías, actualmente curso el 3er año de la
+          carrera de Ing. en Telemática.
+        </p>
+
+        <div class="about_social">
+          <a href="https://www.facebook.com/auxiliadoravanessa.moralesmoreno.5" target="_blank" rel="nofollow noreferrer noopener"> <img src="./imagenes/redes/facebook.svg" alt="facebook"></a>
+          <a href="https://www.instagram.com/auxiliadoravanessamorales/" target="_blank" rel="nofollow noreferrer noopener"> <img src="./imagenes/redes/instagram.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/auxiliadora-vanessa-morales-moreno-7597a3300/" target="_blank" rel="nofollow noreferrer noopener" > <img src="./imagenes/redes/linkedin.svg" alt="linkedin"></a>
+          <a href="https://github.com/vanessamoralesm" target="_blank" rel="nofollow noreferrer noopener"><img src="./imagenes/redes/github.svg" alt=""></a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="proyectos" id="proyectos">
+
+      <h2 class="proyecto_titulo">Proyectos</h2>
+
+      <div class="proyecto_container">
+        <!--se renderizo el cosigo menejando cada una con js-->
+      </div>
+
+    </section>
+
+    <section class="formulario" id="formulario">
+      
+      <div class="formulario__container">
+        <h2 class="formulario__titulo">¡Contáctame!</h2>
+        <img src="./imagenes/img/formulario.png" alt="img_for">
+      </div>
+    
+      <form class="principal__formulario" id="form">
+  
+        <fieldset class="formulario__campo">
+          <label class="campo__etiqueta" for="nombre">Nombre</label>
+          <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required />
+          <div class="error"></div>
+        </fieldset>
+    
+        <fieldset class="formulario__campo">
+          <label class="campo__etiqueta" for="email">E-mail</label>
+          <input name="email" id="email" class="campo__completo" type="email" minlength="5" required />
+          <div class="error"></div>
+        </fieldset>
+        
+        <fieldset class="formulario__campo">
+          <label class="campo__etiqueta" for="asunto">Asunto</label>
+          <textarea name="asunto" id="asunto" class="campo__completo" rows="2" required></textarea>
+          <div class="error"></div>
+        </fieldset>
+    
+        <fieldset class="formulario__campo">
+          <label class="campo__etiqueta" for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" class="campo__completo" rows="4" required></textarea>
+          <div class="error"></div>
+        </fieldset>
+    
+        <div class="boton">
+          <button type="submit" class="btn btn-outline-success">Enviar</button>
+        </div>
+
+      </form>
+
+    </section>
+    
+  </main>
+
+
+  <footer>
+
+  </footer>
+  
+  <script src="main.js" type="module"> </script>
+</body>
+
+</html>

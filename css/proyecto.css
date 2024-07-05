@@ -1,0 +1,67 @@
+
+.proyectos {
+    padding: 50px;
+    background-color: #fffdb5d5;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto_titulo {
+    font-family: "Merriweather", serif;
+    color: rgb(90, 45, 148);
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.proyecto_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.card_portafolio {
+    background-color: #e5f13e44;
+    border-radius: 8px;
+    box-shadow: 5px 5px 1px #888888;
+    overflow: hidden;
+    width: 400px;
+    height: 390px;
+
+    transition: transform 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_portafolio:hover {
+    transform: scale(1.05);
+
+}
+
+.card_portafolio img {
+    width: 80%;
+    height: 70%;
+}
+
+.card_portafolio h3 {
+    font-family: "Merriweather", serif;
+    margin: 20px;
+    font-size: 1.7rem;
+    color: brown;
+    font-weight: 1000;
+    font-style: oblique;
+}
+
+.botones_portafolio {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}

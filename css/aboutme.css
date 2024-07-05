@@ -1,0 +1,63 @@
+.about_me{
+    display: flex;
+    background-color: #f6b27a93;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.fondo_imagen{
+    background-image: url("../imagenes/img/fondo_rosa.svg");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 70%;
+
+}
+.imagen2{
+    border-radius: 30%;
+    min-width:20px;
+    max-width: 50%;
+    width: 50%;
+}
+.about_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-width: 25rem;
+    font-family: "Merriweather", serif;
+    
+}
+.about_titulo{
+    text-align: center;
+    font-style: italic;
+    color: rgb(90, 45, 148);
+    font-size: 50px;
+    font-weight: 900;
+}
+.about_content{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    line-height:240%;
+    color: brown;
+    font-weight: 800;
+}
+svg{
+    font-size: 2.4rem;
+}
+.about_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.about_social img{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+.about_social img:hover{
+    transform: scale(1.2);
+}

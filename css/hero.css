@@ -1,0 +1,42 @@
+.hero{
+    background-color:#FFFDB5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding-top: 6rem;
+    gap: 30px;
+    align-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-family: "Merriweather", serif;
+}
+.imagen{
+    width: 80%;
+    min-width: 70px;
+    align-items: center;
+
+}
+.contenedor_imagen_hero{
+    background-image: url(../imagenes/img/fondo_azul.svg);
+    background-repeat: no-repeat;
+    background-position:unset;
+    background-size: 80%;
+
+}
+.nombre{
+    color: rgb(90, 45, 148);
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+}
+.descripcion{
+    color: brown;
+}
+

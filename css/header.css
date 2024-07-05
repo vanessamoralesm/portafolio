@@ -1,0 +1,92 @@
+header{
+    background-color:#ecf400bb;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+    box-shadow: 8px 8px 5px #888888;
+    padding: 5px;
+}
+.header_img{
+    width: 50px;
+    height: 55px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+#nav-list {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 10;
+    font-size:larger;
+    display: flex;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+#nav-list .nav-link {
+    color: #0a0a0a; 
+}
+
+/* Cambiar el color del texto del nav cuando se pasa el cursor por encima */
+#nav-list .nav-link:hover {
+    color: #33aaff;
+}
+
+.titulo_log{
+    color: rgb(90, 45, 148);
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button.hamburger{
+    display: none;
+}
+
+@media screen  and (max-width:760px) {
+    header{
+        height: 12dvh;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+        height: 100dvh;
+        justify-content: center;
+        gap: 2rem;
+        background-color:#ecf400dc;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(770px);
+        transition: .4s ease-in-out;
+    }
+    .panel.is-active{
+        transform: translatex(0);
+        backdrop-filter: blur(2px)
+    }
+    #nav-list {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 300;
+       color: #0a0a0a;
+    }
+    .menu{
+        width: auto;
+    }
+    button.hamburger{
+        display: block;
+    }
+
+}

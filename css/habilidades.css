@@ -1,0 +1,49 @@
+.skills {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.habilidades_titulo {
+    font-family: "Merriweather", serif;
+    color: rgb(90, 45, 148);
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.habilidades_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardss{
+    background-color: rgba(255, 255, 0, 0.295);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px black;
+    width: 130px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.cardss:hover {
+    transform: scale(1.2);
+}
+
+.cardss img {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.cardss h2 {
+    font-family: "Merriweather", serif;
+    margin: 20px 0;
+    font-size: 1.3rem;
+    color: brown;
+    font-weight: 800;
+}
