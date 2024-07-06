@@ -141,28 +141,28 @@
     
       <form class="principal__formulario" id="form">
   
-        <fieldset class="formulario__campo">
+        <fieldset class="form-control">
           <label class="campo__etiqueta" for="nombre">Nombre</label>
-          <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required />
-          <div class="error"></div>
+          <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3"/>
+          <small>Error mensaje </small>
         </fieldset>
     
-        <fieldset class="formulario__campo">
+        <fieldset class="form-control">
           <label class="campo__etiqueta" for="email">E-mail</label>
-          <input name="email" id="email" class="campo__completo" type="email" minlength="5" required />
-          <div class="error"></div>
+          <input name="email" id="email" class="campo__completo" type="email" minlength="5"/>
+          <small>Error mensaje </small>
         </fieldset>
         
-        <fieldset class="formulario__campo">
+        <fieldset class="form-control">
           <label class="campo__etiqueta" for="asunto">Asunto</label>
-          <textarea name="asunto" id="asunto" class="campo__completo" rows="2" required></textarea>
-          <div class="error"></div>
+          <textarea name="asunto" id="asunto" class="campo__completo" rows="2" cols="50"></textarea>
+          <small>Error mensaje </small>
         </fieldset>
     
-        <fieldset class="formulario__campo">
+        <fieldset class="form-control">
           <label class="campo__etiqueta" for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="mensaje" class="campo__completo" rows="4" required></textarea>
-          <div class="error"></div>
+          <textarea name="mensaje" id="mensaje" class="campo__completo" rows="5" cols="50"></textarea>
+          <small>Error mensaje </small>
         </fieldset>
     
         <div class="boton">
@@ -176,9 +176,38 @@
   </main>
 
 
-  <footer>
+  <footer class="futer">
 
-  </footer>
+    <div class="footer_container">
+
+      <div class="redes_footer">
+        <h4>Redes Sociales</h4>
+        <div class="enlaces_redes">
+          <a href="https://www.facebook.com/auxiliadoravanessa.moralesmoreno.5" target="_blank" rel="nofollow noreferrer noopener"> <img src="./imagenes/redes/facebook.svg" alt="facebook"></a>
+          <a href="https://www.instagram.com/auxiliadoravanessamorales/" target="_blank" rel="nofollow noreferrer noopener"> <img src="./imagenes/redes/instagram.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/auxiliadora-vanessa-morales-moreno-7597a3300/" target="_blank" rel="nofollow noreferrer noopener" > <img src="./imagenes/redes/linkedin.svg" alt="linkedin"></a>
+          <a href="https://github.com/vanessamoralesm" target="_blank" rel="nofollow noreferrer noopener"><img src="./imagenes/redes/github.svg" alt=""></a>
+        </div>
+      </div>
+      
+      <div class="enlaces_footer">
+        <h4>Enlaces Rápidos</h4>
+        <ul class="enlaces">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="Copyright">
+      <h3>Copyright © 2024 Todos los derechos reservados.</h3>
+    </div>
+      
+  </div>
+</footer>
+
   
   <script src="main.js" type="module"> </script>
 </body>
