@@ -20,12 +20,12 @@ const skills=[
     },
 
     {
-        imagen: "../imagenes/skills/javascript.svg",
+        imagen: "./imagenes/skills/javascript.svg",
         titulo: "JS"
     },
 
     {
-        imagen: "../imagenes/skills/mysql.svg",
+        imagen: "./imagenes/skills/mysql.svg",
         titulo: "MySQL"
     },
 
